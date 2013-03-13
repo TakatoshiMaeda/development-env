@@ -1,11 +1,8 @@
 include_recipe 'homebrew'
+require '/tmp/chef-solo/cookbooks/homebrew/libraries/homebrew_package'
 
-node.packages.each do |provider, values|
+node.packages.each do |prov, values|
   values.each do |pkg|
-    package (pkg.class == String ? pkg : pkg["name"]) do
-      action :install
-      provider Opscode::Packages.install_provider(provider)
-      source "#{pkg["source"]}" if provider == "rpm"
-    end
+    package pkg
   end
 end

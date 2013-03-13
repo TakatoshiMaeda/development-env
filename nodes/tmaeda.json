@@ -12,7 +12,8 @@
       "recipe[apps::pleiades]",
       "recipe[apps::sublimetext2]",
       "recipe[apps::totalterminal]",
-      "recipe[apps::virtualbox]"
+      "recipe[apps::virtualbox]",
+      "recipe[library]"
     ],
     "user":{
         "name": "tmaeda",
@@ -20,7 +21,7 @@
         "home": "/Users/tmaeda"
       },
       "packages":{
-        "homebrew" => [
+        "homebrew": [
           "ghc",
           "haskell-platform",
           "python",
