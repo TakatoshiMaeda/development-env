@@ -1,6 +1,9 @@
 [submodule "cookbooks/dmg"]
-	path = cookbooks/dmg
-	url = git@github.com:opscode-cookbooks/dmg.git
+  path = cookbooks/dmg
+  url = git@github.com:opscode-cookbooks/dmg.git
 [submodule "cookbooks/mac_os_x"]
-	path = cookbooks/mac_os_x
-	url = git@github.com:jtimberman/mac_os_x-cookbook.git
+  path = cookbooks/mac_os_x
+  url = git@github.com:jtimberman/mac_os_x-cookbook.git
+[submodule "cookbooks/homebrew"]
+  path = cookbooks/homebrew
+  url = git@github.com:opscode-cookbooks/homebrew.git
