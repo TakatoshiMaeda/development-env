@@ -7,3 +7,6 @@
 [submodule "cookbooks/homebrew"]
   path = cookbooks/homebrew
   url = git@github.com:opscode-cookbooks/homebrew.git
+[submodule "cookbooks/labit"]
+	path = cookbooks/labit
+	url = git@github.com:TakatoshiMaeda/labit.git
