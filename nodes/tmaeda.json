@@ -16,6 +16,10 @@
       "recipe[apps::sublimetext2]",
       "recipe[apps::totalterminal]",
       "recipe[apps::virtualbox]",
+      "recipe[apps::keyremap4macbook]",
+      "recipe[apps::line]",
+      "recipe[apps::sequelpro]",
+      "recipe[apps::google_japanese_ime]",
       "recipe[library::android-sdk]",
       "recipe[macconfig::terminal]",
       "recipe[macconfig::shell]"
