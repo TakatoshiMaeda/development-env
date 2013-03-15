@@ -4,6 +4,7 @@
       "recipe[homebrew]",
       "recipe[mac_os_x]",
       "recipe[library]",
+      "recipe[labit]",
       "recipe[apps::bettertouchtool]",
       "recipe[apps::chrome]",
       "recipe[apps::dropbox]",
@@ -22,13 +23,22 @@
       "recipe[apps::google_japanese_ime]",
       "recipe[library::android-sdk]",
       "recipe[macconfig::terminal]",
-      "recipe[macconfig::shell]"
+      "recipe[macconfig::shell]",
+      "recipe[labit::sugojika_repo]",
+      "recipe[labit::media_repo]",
+      "recipe[labit::sugojika_db]"
     ],
     "user":{
         "name": "tmaeda",
         "group": "staff",
         "home": "/Users/tmaeda",
-        "shell": "/usr/local/bin/zsh"
+        "shell": "/usr/local/bin/zsh",
+        "github":{
+          "name": "TakatoshiMaeda"
+        },
+        "bitbucket":{
+          "name": "TakatoshiMaeda"
+        }
       },
       "packages":{
         "homebrew": {

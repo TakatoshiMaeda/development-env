@@ -1,3 +1,5 @@
+require File.expand_path(File.dirname(__FILE__)) + "/cookbooks/labit/tasks/all"
+
 def cook_chef_solo(node_name, options = {})
   system "chef-solo -c solo.rb -j nodes/#{node_name}.json #{options.to_a.flatten.join(" ")}"
 end
