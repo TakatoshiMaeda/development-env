@@ -17,9 +17,10 @@ unless File.exist?("/Applications/eclipse/plugins/jp.sourceforge.mergedoc.pleiad
     mkdir -p /Applications/eclipse/features
     cp -r #{unzip_dir}/plugins/jp.sourceforge.mergedoc.pleiades /Applications/eclipse/plugins/jp.sourceforge.mergedoc.pleiades
     cp -r #{unzip_dir}/features/jp.sourceforge.mergedoc.pleiades /Applications/eclipse/features/jp.sourceforge.mergedoc.pleiades
-    cat #{ini_file} | sed 's/org.eclipse.platform//g' > #{ini_file}
-    cat #{ini_file} | sed 's/-showsplash//g' > #{ini_file}
-    echo "\n-javaagent:plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar\n" >> #{ini_file}
     EOS
+  end
+  template ini_file do
+    source "eclipse.ini.erb"
+    mode 0644
   end
 end
