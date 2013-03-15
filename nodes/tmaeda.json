@@ -31,28 +31,32 @@
         "shell": "/usr/local/bin/zsh"
       },
       "packages":{
-        "homebrew": [
-          "ghc",
-          "haskell-platform",
-          "python",
-          "git",
-          "tmux",
-          "zsh",
-          "tree",
-          "wget",
-          "readline",
-          "imagemagick",
-          "htop-osx",
-          "mecab",
-          "mecab-ipadic",
-          "msgpack",
-          "mysql",
-          "redis",
-          "sqlite3",
-          "git-flow",
-          "csshx",
-          "lynx",
-          "erlang"
-        ]
+        "homebrew": {
+          "items": [
+            "ghc",
+            "haskell-platform",
+            "python",
+            "git",
+            "tmux",
+            "zsh",
+            "tree",
+            "wget",
+            "readline",
+            "imagemagick",
+            "htop-osx",
+            "mecab",
+            "mecab-ipadic",
+            "msgpack",
+            "mysql",
+            "redis",
+            "sqlite3",
+            "git-flow",
+            "csshx",
+            "lynx",
+            "erlang"
+          ],
+          "initialize":[
+            "mysql"
+          ]
       }
 }
