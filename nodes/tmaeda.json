@@ -25,12 +25,13 @@
       "recipe[apps::vmware_fusion]",
       "recipe[library::android-sdk]",
       "recipe[library::powerline]",
-      "recipe[macconfig::terminal]",
-      "recipe[macconfig::shell]",
       "recipe[labit::sugojika_repo]",
       "recipe[labit::media_repo]",
       "recipe[labit::sugojika_db]",
-      "recipe[mine::repository]"
+      "recipe[mine::repository]",
+      "recipe[mine::font_install]",
+      "recipe[macconfig::terminal]",
+      "recipe[macconfig::shell]"
     ],
     "user":{
         "name": "tmaeda",
