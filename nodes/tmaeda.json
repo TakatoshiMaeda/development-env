@@ -24,6 +24,7 @@
       "recipe[apps::vagrant]",
       "recipe[apps::vmware_fusion]",
       "recipe[library::android-sdk]",
+      "recipe[library::powerline]",
       "recipe[macconfig::terminal]",
       "recipe[macconfig::shell]",
       "recipe[labit::sugojika_repo]",
