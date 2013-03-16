@@ -13,7 +13,7 @@ git "#{node.user.home}/lib/powerline" do
   action :checkout
 end
 
-python_path = `ls /usr/local/lib/ | grep python`.gsub("\n", ")"
+python_path = `ls /usr/local/lib/ | grep python`.gsub("\n", "")
 powerline_path = `ls /usr/local/lib/#{python_path}/site-packages/ | grep Powerline`.gsub("\n", "")
 unless File.exist?("/usr/local/lib/#{python_path}/site-packages/#{powerline_path}")
   script "install powerline" do

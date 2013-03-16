@@ -73,7 +73,8 @@
           ],
           "initialize":[
             "imagemagick",
-            "mysql"
+            "mysql",
+            "redis"
           ]
       }
 }
