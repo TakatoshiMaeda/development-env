@@ -29,7 +29,8 @@
       "recipe[macconfig::shell]",
       "recipe[labit::sugojika_repo]",
       "recipe[labit::media_repo]",
-      "recipe[labit::sugojika_db]"
+      "recipe[labit::sugojika_db]",
+      "recipe[mine::repository]"
     ],
     "user":{
         "name": "tmaeda",

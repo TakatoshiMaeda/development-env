@@ -10,3 +10,6 @@
 [submodule "cookbooks/labit"]
 	path = cookbooks/labit
 	url = git@github.com:TakatoshiMaeda/labit.git
+[submodule "cookbooks/mine"]
+	path = cookbooks/mine
+	url = git@github.com:TakatoshiMaeda/mine.git
