@@ -21,6 +21,8 @@
       "recipe[apps::line]",
       "recipe[apps::sequelpro]",
       "recipe[apps::google_japanese_ime]",
+      "recipe[apps::vagrant]",
+      "recipe[apps::vmware_fusion]",
       "recipe[library::android-sdk]",
       "recipe[macconfig::terminal]",
       "recipe[macconfig::shell]",
