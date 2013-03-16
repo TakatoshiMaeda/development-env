@@ -23,6 +23,7 @@
       "recipe[apps::google_japanese_ime]",
       "recipe[apps::vagrant]",
       "recipe[apps::vmware_fusion]",
+      "recipe[apps::xtrafinder]",
       "recipe[library::android-sdk]",
       "recipe[library::powerline]",
       "recipe[labit::sugojika_repo]",
