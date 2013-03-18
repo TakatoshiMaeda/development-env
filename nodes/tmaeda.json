@@ -25,6 +25,7 @@
       "recipe[apps::vmware_fusion]",
       "recipe[apps::xtrafinder]",
       "recipe[apps::skype]",
+      "recipe[apps::pivotal_booster]",
       "recipe[library::android-sdk]",
       "recipe[library::powerline]",
       "recipe[labit::sugojika_repo]",
