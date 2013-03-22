@@ -25,6 +25,7 @@
       "recipe[apps::vmware_fusion]",
       "recipe[apps::xtrafinder]",
       "recipe[apps::skype]",
+      "recipe[apps::heroku]",
       "recipe[apps::pivotal_booster]",
       "recipe[library::android-sdk]",
       "recipe[library::powerline]",
@@ -71,6 +72,7 @@
             "git-flow",
             "csshx",
             "lynx",
+            "hub",
             "erlang"
           ],
           "initialize":[
