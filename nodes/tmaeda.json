@@ -27,6 +27,7 @@
       "recipe[apps::skype]",
       "recipe[apps::heroku]",
       "recipe[apps::pivotal_booster]",
+      "recipe[apps::rubymotion]",
       "recipe[library::android-sdk]",
       "recipe[library::powerline]",
       "recipe[labit::sugojika_repo]",
