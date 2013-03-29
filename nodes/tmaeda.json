@@ -35,6 +35,7 @@
       "recipe[labit::sugojika_repo]",
       "recipe[labit::media_repo]",
       "recipe[labit::sugojika_db]",
+      "recipe[labit::infrastructure_repo]",
       "recipe[mine::repository]",
       "recipe[mine::font_install]",
       "recipe[macconfig::terminal]",
