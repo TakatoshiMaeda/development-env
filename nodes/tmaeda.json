@@ -28,7 +28,9 @@
       "recipe[apps::heroku]",
       "recipe[apps::pivotal_booster]",
       "recipe[apps::rubymotion]",
+      "recipe[apps::cyberduck]",
       "recipe[library::android-sdk]",
+      "recipe[library::intel_haxm_android]",
       "recipe[library::powerline]",
       "recipe[labit::sugojika_repo]",
       "recipe[labit::media_repo]",
@@ -74,7 +76,9 @@
             "csshx",
             "lynx",
             "hub",
-            "erlang"
+            "erlang",
+            "scala",
+            "play"
           ],
           "initialize":[
             "imagemagick",
