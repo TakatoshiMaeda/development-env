@@ -17,7 +17,6 @@ if File.open("/etc/shells").read.index(node.user.shell).nil?
     user node.user.name
     code <<-"EOS"
     chpass -s #{node.user.shell}
-    chpass
     EOS
   end
   Chef::Log.info("change zsh success")

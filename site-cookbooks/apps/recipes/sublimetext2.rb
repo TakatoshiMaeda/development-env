@@ -11,6 +11,7 @@ unless File.exist?("#{node.user.home}/bin/sbl")
     interpreter "bash"
     flags "-e"
     code <<-"eos"
+    mkdir -p #{node.user.home}/bin
     ln -s "/applications/sublime text 2.app/contents/sharedsupport/bin/subl" ~/bin/sbl
     eos
   end

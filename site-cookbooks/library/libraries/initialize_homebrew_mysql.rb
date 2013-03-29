@@ -5,9 +5,11 @@ def initialize_homebrew_mysql
       flags "-e"
       code <<-"EOS"
         unset TMPDIR
+        mkdir -p /usr/local/var/mysql
+        rm -f /usr/local/opt/mysql/my.cnf
         sudo mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
         mkdir -p ~/Library/LaunchAgents
-        cp /usr/local/Cellar/mysql/#{`ls /usr/local/Cellar/mysql/`}/homebrew.mxcl.mysql.plist ~/Library/LaunchAgents/
+        cp /usr/local/Cellar/mysql/#{`ls /usr/local/Cellar/mysql/`.chomp}/homebrew.mxcl.mysql.plist ~/Library/LaunchAgents/
         launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
       EOS
     end

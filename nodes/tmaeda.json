@@ -55,8 +55,6 @@
       "packages":{
         "homebrew": {
           "items": [
-            "ghc",
-            "haskell-platform",
             "python",
             "git",
             "tmux",
