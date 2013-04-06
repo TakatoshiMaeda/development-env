@@ -8,8 +8,14 @@
   path = cookbooks/homebrew
   url = git@github.com:opscode-cookbooks/homebrew.git
 [submodule "cookbooks/labit"]
-	path = cookbooks/labit
-	url = git@github.com:TakatoshiMaeda/labit.git
+  path = cookbooks/labit
+  url = git@github.com:TakatoshiMaeda/labit.git
 [submodule "cookbooks/mine"]
-	path = cookbooks/mine
-	url = git@github.com:TakatoshiMaeda/mine.git
+  path = cookbooks/mine
+  url = git@github.com:TakatoshiMaeda/mine.git
+[submodule "cookbooks/macapps"]
+  path = cookbooks/macapps
+  url = git@github.com:TakatoshiMaeda/macapps.git
+[submodule "cookbooks/library"]
+  path = cookbooks/library
+  url = git@github.com:TakatoshiMaeda/library.git
