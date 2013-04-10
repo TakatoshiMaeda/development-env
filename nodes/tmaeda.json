@@ -7,6 +7,7 @@
       "recipe[labit]",
       "role[common]",
       "role[dev_common]",
+      "role[infrastructure]",
       "role[android]",
       "role[web]",
       "recipe[labit::sugojika_repo]",
