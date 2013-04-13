@@ -1,15 +1,13 @@
 {
     "run_list": [
       "recipe[dmg]",
+      "role[common]",
+      "role[dev_common]",
+      "role[android]",
       "recipe[homebrew]",
       "recipe[mac_os_x]",
       "recipe[library]",
       "recipe[labit]",
-      "role[common]",
-      "role[dev_common]",
-      "role[infrastructure]",
-      "role[android]",
-      "role[web]",
       "recipe[labit::sugojika_repo]",
       "recipe[labit::media_repo]",
       "recipe[labit::sugojika_db]",
@@ -33,10 +31,35 @@
       },
       "packages":{
         "items":[
+        "git",
+        "tmux",
+        "zsh",
+        "tree",
+        "wget",
+        "readline",
+        "htop-osx",
+        "git-flow",
+        "csshx",
+        "hub",
+        "jq",
         "python",
         "erlang",
         "scala",
-        "play"
+        "play",
+        "python",
+        "imagemagick",
+        "mecab",
+        "mecab-ipadic",
+        "msgpack",
+        "mysql",
+        "redis",
+        "sqlite3",
+        "tiger-vnc"
+        ],
+        "initialize":[
+        "imagemagick",
+        "mysql",
+        "redis"
         ]
       }
 }
